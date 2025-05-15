@@ -1,0 +1,79 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #f0f8ff, #d4f1f4);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+.container {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+
+h1 {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+
+input[type="datetime-local"] {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #009acd;
+}
+
+
+#countdown {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.time-box {
+  background-color: #fefefe;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  min-width: 100px;
+}
+
+.time-box span {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333;
+}
+
+.time-box p {
+  margin: 5px 0 0;
+  color: #666;
+}
